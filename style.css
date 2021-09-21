@@ -2,10 +2,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 * {
-    border: solid red 1px;
+    /* border: solid red 1px; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -13,10 +16,14 @@ body {
 
 header {
     height: 50px;
-    border: green solid 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.website-name {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 ul.header-links {
@@ -24,11 +31,38 @@ ul.header-links {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    gap: 16px
+}
+
+ul a {
+    color: #E5E7Eb;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 header,
 .top-content {
-    padding: 0 15vw 0 10vw;
+    padding: 0 10vw 0 15vw;
+    background-color: #1F2937;
+    color: #F9F8Fa;
+}
+
+
+/* Top Content */
+
+.top-content {
+    display: flex;
+}
+
+.top-content>* {
+    flex: 1;
+}
+
+.top-content div.rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
