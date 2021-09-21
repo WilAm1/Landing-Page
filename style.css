@@ -133,6 +133,29 @@ header,
 
 /* Quotation Content */
 
+.quotation-content {
+    background-color: #E5E7Eb;
+    color: #1F2937;
+    padding: 100px 0;
+}
+
+.quotation-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+p.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+p.quote-author {
+    text-align: end;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 footer {
     margin-top: auto;
 }
