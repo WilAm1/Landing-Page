@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 * {
@@ -47,6 +48,7 @@ header,
     padding: 0 10vw 0 15vw;
     background-color: #1F2937;
     color: #F9F8Fa;
+    text-align: left;
 }
 
 
@@ -93,6 +95,43 @@ header,
     margin: 8px 0;
     border: none;
 }
+
+
+/* Middle Content */
+
+.middle-content {
+    padding-bottom: 100px;
+}
+
+.middle-content h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 150px;
+    color: #3a3f46;
+}
+
+.card .content-img {
+    border: solid 5px blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+
+/* Quotation Content */
 
 footer {
     margin-top: auto;
