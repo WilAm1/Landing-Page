@@ -129,7 +129,7 @@ header,
 }
 
 .card .content-img {
-    border: solid 5px blue;
+    border: solid 5px #3882f6;
     height: 150px;
     width: 150px;
     border-radius: 20px;
@@ -200,4 +200,10 @@ div.call-to-action {
 
 footer {
     margin-top: auto;
+    height: 5em;
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7Eb;
+    justify-content: center;
+    align-items: center;
 }
