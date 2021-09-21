@@ -164,6 +164,40 @@ p.quote-author {
 
 /* Call to Action */
 
+div.call-to-action {
+    background-color: #3882f6;
+    height: 10em;
+    width: 60%;
+    margin: 100px auto;
+    color: #E5E7Eb;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.call-to-action h3 {
+    margin: 0;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.call-to-action p {
+    margin: 0;
+}
+
+.call-to-action button {
+    background-color: #3882f6;
+    padding: 8px 32px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #F9F8Fa;
+    border-radius: 10px;
+    margin: 8px 0;
+    border: solid 2px #F9F8Fa;
+}
+
 footer {
     margin-top: auto;
 }
